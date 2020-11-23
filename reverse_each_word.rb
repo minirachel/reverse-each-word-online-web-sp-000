@@ -1,4 +1,4 @@
 def reverse_each_word(sentence)
   words = sentence.scan(/\S+/)
-  words.collect (|word| word.reverse)
+  words.collect(|word| word.reverse)
 end
