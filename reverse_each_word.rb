@@ -1,4 +1,5 @@
 def reverse_each_word(sentence)
   words = sentence.scan(/\S+/)
-  words
+  new_sentence = words.reverse
+  
 end
